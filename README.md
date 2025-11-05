@@ -1,2 +1,2 @@
-# yolo-kalman-tracker
+#     people-detector-tracker
 Тестовое задание для компании BND.
