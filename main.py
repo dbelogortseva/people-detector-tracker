@@ -29,7 +29,7 @@ def main():
                         help="(kalman) Run detector every N frames.")
     parser.add_argument("--iou-thr", type=float, default=0.3,
                         help="(kalman) IoU threshold for matching.")
-    parser.add_argument("--max-age", type=int, default=10,
+    parser.add_argument("--max-age", type=int, default=30,
                         help="(kalman) Max missed frames before deleting a track.")
 
     args = parser.parse_args()
